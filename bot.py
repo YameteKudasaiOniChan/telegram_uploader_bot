@@ -1,13 +1,13 @@
+import telebot
 import json
 import os
-
-import telebot
-from telebot import custom_filters
 
 bot_token = "BOT TOKEN"
 bot = telebot.TeleBot(bot_token)
 print("Started")
 print("By Yamete_Kudasai_Oni_Chan")
+
+
 try:
     os.mkdir('data')
 except:
